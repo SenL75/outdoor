@@ -83,7 +83,7 @@ nav{
 .h_link{
     font-weight: 400;
     font-size: 13px;
-    line-height: 25px;
+    line-height: 26px;
     color: #222222;
     margin-right: 40px;
 }
@@ -165,8 +165,13 @@ nav{
     width: 471px;
 }
 /* s1 */
+.sec1_wr{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
 .s1_wr{
-    padding: 274px 0 274px 816px;
+    margin-left: 100px;
 }
 .sec1_text{
     font-weight: 400;
@@ -212,13 +217,13 @@ nav{
     text-align: center;
     width: 600px;
 }
-.sec3_text{
+.s2_text{
     font-family: Roboto;
     font-size: 36px;
     font-weight: 400;
     color: #575445;
 }
-.sec3_subtext{
+.s2_subtext{
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
@@ -226,7 +231,7 @@ nav{
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-.sec3_bigtext{
+.s2_bigtext{
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
@@ -234,24 +239,24 @@ nav{
     width: 538px;
     margin-left: 30px;
 }
-.sec3_blocks{
+.s2_blocks{
     display: flex;
     margin-top: 70px;
     margin-left: 187px;
 }
-.sec3_blocks2{
+.s2_blocks2{
     display: flex;
     margin-top: 110px;
     margin-left: 187px;
 }
-.sec3_block{
+.s2_block{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-right: 102px;
 }
-.sec3_textblock{
+.s2_textblock{
     font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
@@ -259,7 +264,7 @@ nav{
     margin-top: 10px;
     margin-bottom: 9px;
 }
-.sec3_subtextblock{
+.s2_subtextblock{
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
